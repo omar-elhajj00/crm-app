@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc; // Import the necessary namespace for MVC controllers.
+﻿using crm_app.Models;
+using Microsoft.AspNetCore.Mvc; // Import the necessary namespace for MVC controllers.
 using Microsoft.Xrm.Tooling.Connector;
 
 namespace crm_app.Controllers
