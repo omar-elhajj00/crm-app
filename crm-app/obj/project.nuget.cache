@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "dgSpecHash": "gGWfkkSTsghp8qKmSfHoQ84KXxhDPwuSIyWSWVramb+TrKGkp3FznsgGHF4PzQsJYj7IZmw2fdNJhtw3j6t6NA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\OMAR\\source\\repos\\crm-app\\crm-app\\crm-app.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\OMAR\\.nuget\\packages\\microsoft.crmsdk\\4.0.13\\microsoft.crmsdk.4.0.13.nupkg.sha512",
+    "C:\\Users\\OMAR\\.nuget\\packages\\microsoft.crmsdk.coreassemblies\\9.0.2.50\\microsoft.crmsdk.coreassemblies.9.0.2.50.nupkg.sha512",
+    "C:\\Users\\OMAR\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\OMAR\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\OMAR\\.nuget\\packages\\system.text.json\\6.0.7\\system.text.json.6.0.7.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.CrmSdk 4.0.13' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.CrmSdk",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.CrmSdk.CoreAssemblies 9.0.2.50' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.CrmSdk.CoreAssemblies",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
