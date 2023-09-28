@@ -24,12 +24,14 @@ namespace crm_app.Controllers
             // Retrieve Dynamics 365 connection string from app settings
             var connectionString = _configuration.GetConnectionString("Dynamics365"); // Retrieve the connection string named "Dynamics365" from the configuration.
 
+
             // Create a connection to Dynamics 365
             using var service = new CrmServiceClient(connectionString); // Create a connection to Dynamics 365 using the retrieved connection string.
             if (service.IsReady)
             {
                 // Create a new CRM entity (e.g., contact)
                 var contact = new Entity("contact");
+                contact["Id"] = model.Id;
                 contact["firstname"] = model.Name;
                 contact["emailaddress1"] = model.Email;
                 contact["telephone1"] = model.Phone;

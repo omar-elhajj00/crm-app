@@ -1,8 +1,27 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+@model crm_app.Models.CustomerModel
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+
+    <h2>Create Customer</h2>
+
+    <form asp-controller="CustomerController" asp-action="Create" method="post">
+        <div class="form-group">
+            <label for="Name">Name:</label>
+            <input type="text" class="form-control" id="Name" name="Name" required>
+        </div>
+        <div class="form-group">
+            <label for="Email">Email:</label>
+            <input type="email" class="form-control" id="Email" name="Email" required>
+        </div>
+        <div class="form-group">
+            <label for="Phone">Phone:</label>
+            <input type="tel" class="form-control" id="Phone" name="Phone" required>
+        </div>
+        <button asp-controller="Customer" asp-action="Create" type="submit" class="btn btn-primary">Create</button>
+    </form>
 </div>
+    
