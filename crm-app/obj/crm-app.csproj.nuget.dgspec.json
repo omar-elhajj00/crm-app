@@ -51,6 +51,10 @@
             "Microsoft.CrmSdk.CoreAssemblies": {
               "target": "Package",
               "version": "[9.0.2.50, )"
+            },
+            "Microsoft.CrmSdk.XrmTooling.CoreAssembly": {
+              "target": "Package",
+              "version": "[9.1.1.41, )"
             }
           },
           "imports": [
